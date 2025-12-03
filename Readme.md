@@ -8,6 +8,12 @@ This project creates LSTM Models from scratch (no libraries) and compares a Glob
 
 ## Assumptions
 - The Rossmann Store Sales dataset had a testing dataset without true labels, thus we utilized the training dataset and divided it into training, validating, and testing datasets.
+- The hyperparameters are initialized in cell 38 (feel free to change all for personal testing EXCEPT INPUT_DIM)
+  - INPUT_DIM = 1
+  - HIDDEN_DIM = 4
+  - LEARNING_RATE - 0.001
+  - BATCH_SIZE = 32
+  - EPOCHS = 3
 
 ## Instructions
 1. Open [Google Colab](https://colab.research.google.com/).
